@@ -4,12 +4,12 @@
 
 ## Table of Content:
 
-  - Introduction
-  - Prerequisites
-  - Installation
-  - Usage
-  - Contributing
-  - License
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 ### Introduction:
 
@@ -26,7 +26,7 @@ Before you begin, ensure you have the following requirements installed on your s
 ### Installation:
 
  1. Clone the repository to your local machine:
-
+     ```bash
        git clone https://github.com/Youcode-Classe-E-2023-2024/KholodSanak_Avito.git
     
   
