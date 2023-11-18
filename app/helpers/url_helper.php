@@ -1,7 +1,6 @@
 <?php
   // Simple page redirect
-  function redirect($page){
+  function redirect($page) :void{
     header('location: '.URLROOT.'/'.$page);
   }
-
 ?>

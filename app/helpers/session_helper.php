@@ -2,7 +2,7 @@
 session_start();
 
 // Flash message helper
-function flash($name = '', $message = '', $class = 'alert alert-success'){
+function flash(string $name = '', string $message = '',string $class = 'alert alert-success'): void{
   if(!empty($name)){
     //No message, create it
     if(!empty($message) && empty($_SESSION[$name])){

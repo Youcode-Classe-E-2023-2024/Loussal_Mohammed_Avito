@@ -16,7 +16,7 @@ class Database {
 	private $error;
 	private $stmt;
 	
-	public function __construct() {
+	public function __construct(){
 		// Set DSN
 		$dsn = 'mysql:host=' . $this->host . ';dbname=' . $this->dbname;
 		$options = array (
@@ -34,12 +34,12 @@ class Database {
 	}
 	
 	// Prepare statement with query
-	public function query($query) {
+	public function query($query): void {
 		$this->stmt = $this->dbh->prepare($query);
 	}
 	
 	// Bind values
-	public function bind($param, $value, $type = null) {
+	public function bind($param, $value, $type = null): void{
 		if (is_null ($type)) {
 			switch (true) {
 				case is_int ($value) :
@@ -85,5 +85,4 @@ class Database {
 		return $this->dbh->lastInsertId();
 	}
 }
-
 ?>

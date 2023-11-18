@@ -6,7 +6,7 @@
       }
     }
 
-    public function index(){
+    public function index(): void{
       $this->view('welcome', ['title' => 'Welcome']);
     }
   }

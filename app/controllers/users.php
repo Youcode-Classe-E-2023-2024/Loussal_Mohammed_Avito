@@ -4,11 +4,11 @@
       $this->userModel = $this->model('User');
     }
 
-    public function index(){
+    public function index(): void{
       redirect('welcome');
     }
 
-    public function register(){
+    public function register(): void{
       // Check if logged in
       if($this->isLoggedIn()){
         redirect('posts');
@@ -99,7 +99,8 @@
         $this->view('users/register', $data);
       }
     }
-    public function login(){
+
+    public function login(): void{
       // Check if logged in
       if($this->isLoggedIn()){
         redirect('posts');
@@ -173,7 +174,7 @@
     }
 
     // Create Session With User Info
-    public function createUserSession($user){
+    public function createUserSession(object $user): void{
       $_SESSION['user_id'] = $user->id;
       $_SESSION['user_email'] = $user->email; 
       $_SESSION['user_name'] = $user->name;
@@ -181,7 +182,7 @@
     }
 
     // Logout & Destroy Session
-    public function logout(){
+    public function logout(): void{
       unset($_SESSION['user_id']);
       unset($_SESSION['user_email']);
       unset($_SESSION['user_name']);
@@ -190,7 +191,7 @@
     }
 
     // Check Logged In
-    public function isLoggedIn(){
+    public function isLoggedIn(): bool{
       if(isset($_SESSION['user_id'])){
         return true;
       } else {

@@ -1,4 +1,4 @@
-<?php
+0~<?php
   class Posts extends Controller{
     public function __construct(){
       if(!isset($_SESSION['user_id'])){
@@ -10,7 +10,7 @@
     }
 
     // Load All Posts
-    public function index(){
+    public function index(): void{
       $posts = $this->postModel->getPosts();
 
       $data = [
@@ -21,7 +21,7 @@
     }
 
     // Show Single Post
-    public function show($id){
+    public function show(int $id): void{
       $post = $this->postModel->getPostById($id);
       $user = $this->userModel->getUserById($post->user_id);
 
@@ -34,7 +34,7 @@
     }
 
     // Add Post
-    public function add(){
+    public function add(): void{
       if($_SERVER['REQUEST_METHOD'] == 'POST'){
         // Sanitize POST
         $_POST  = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
@@ -83,7 +83,7 @@
     }
 
     // Edit Post
-    public function edit($id){
+    public function edit($id): void{
       if($_SERVER['REQUEST_METHOD'] == 'POST'){
         // Sanitize POST
         $_POST  = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
@@ -142,7 +142,7 @@
     }
 
     // Delete Post
-    public function delete($id){
+    public function delete($id): void{
       if($_SERVER['REQUEST_METHOD'] == 'POST'){
         //Execute
         if($this->postModel->deletePost($id)){
@@ -157,4 +157,3 @@
       }
     }
   }
-?>

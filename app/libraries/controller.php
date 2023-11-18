@@ -5,7 +5,7 @@
    */
   class Controller {
     // Lets us load model from controllers
-    public function model($model){
+    public function model( $model): object{
       // Require model file
       require_once '../app/models/' . $model . '.php';
       // Instantiate model
@@ -13,7 +13,7 @@
     }
 
     // Lets us load view from controllers
-    public function view($url, $data = []){
+    public function view(string $url, array $data = []): void{
       // Check for view file
       if(file_exists('../app/views/'.$url.'.php')){
         // Require view file
@@ -24,5 +24,5 @@
       }
     }
   }
-?>
 
+?>
