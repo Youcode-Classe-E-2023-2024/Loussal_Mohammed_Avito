@@ -1,7 +1,7 @@
 # ***Loussal_Mohammed_Avito***:
---
- This project is a ***Great*** PHP application for listing and managing annonces using a MySQL database And MVC and OOP.
 
+ This project is a ***Great*** PHP application for listing and managing annonces using a MySQL database And MVC and OOP.
+--
 ## Table of Content:
 
   - Introduction
