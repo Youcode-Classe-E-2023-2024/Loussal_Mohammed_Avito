@@ -8,8 +8,8 @@
   // App Root
   define('APPROOT', dirname(dirname(__FILE__)));
   // URL Root
-  define('URLROOT', 'http://localhost/project');
+  define('URLROOT', 'http://localhost/Loussal_Mohammed_Avito');
   // Site Name
-  define('SITENAME', 'LoussalMohammedAvito');
+  define('SITENAME', 'LMAvito');
   
 ?>
