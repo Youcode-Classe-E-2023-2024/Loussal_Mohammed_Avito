@@ -13,7 +13,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-🔰: ## Introduction:
+🔰 ##Introduction:
 
   This PHP application is designed to display a list of annonces fetched from a MySQL database. It allows users to view existing annonces, add new annonces, modify existing ones, and delete annonces.
 
@@ -30,8 +30,9 @@ Before you begin, ensure you have the following requirements installed on your s
   - MySql
   - Web server (e.g., Apache)
   - Git (optional, for cloning the repository)
-
-🚁: ## Installation:
+ 
+🚁
+## Installation:
 
  1. Clone the repository to your local machine:
 
