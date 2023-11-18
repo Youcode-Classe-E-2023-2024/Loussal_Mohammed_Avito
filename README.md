@@ -1,7 +1,7 @@
 # ***Loussal_Mohammed_Avito***:
 
  This project is a ***Great*** PHP application for listing and managing annonces using a MySQL database And MVC and OOP.
---
+
 ## Table of Content:
 
   - Introduction
@@ -12,11 +12,11 @@
   - License
 
 ### Introduction:
---
+
   This PHP application is designed to display a list of annonces fetched from a MySQL database. It allows users to view existing annonces, add new annonces, modify existing ones, and delete annonces.
 
 ### Prerequisites:
---
+
 Before you begin, ensure you have the following requirements installed on your system:
   - PHP
   - MySql
@@ -24,7 +24,7 @@ Before you begin, ensure you have the following requirements installed on your s
   - Git (optional, for cloning the repository)
 
 ### Installation:
---
+
  1. Clone the repository to your local machine:
 
        git clone https://github.com/Youcode-Classe-E-2023-2024/KholodSanak_Avito.git
@@ -48,7 +48,7 @@ Before you begin, ensure you have the following requirements installed on your s
   4.Push to the branch:
 
     git push origin feature/your-feature-name
---
+
 ### License:
 
 This project is licensed under the MIT License.
