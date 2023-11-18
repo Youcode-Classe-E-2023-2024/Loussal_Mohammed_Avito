@@ -31,7 +31,7 @@ Before you begin, ensure you have the following requirements installed on your s
   - Web server (e.g., Apache)
   - Git (optional, for cloning the repository)
 
-:install: ## Installation:
+🚁: ## Installation:
 
  1. Clone the repository to your local machine:
 
