@@ -1,4 +1,4 @@
-# ***Loussal_Mohammed_Avito***:
+:rocket: This is an emoji icon. # ***Loussal_Mohammed_Avito***:
 
  This project is a ***Great*** PHP application for listing and managing annonces using a **MySQL** database And **MVC** and **OOP**.
 
