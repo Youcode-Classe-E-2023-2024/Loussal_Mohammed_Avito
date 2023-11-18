@@ -25,7 +25,7 @@ Before you begin, ensure you have the following requirements installed on your s
 ### Installation:
 ---
  1. Clone the repository to your local machine:
-   git clone: https://github.com/Youcode-Classe-E-2023-2024/KholodSanak_Avito.git
+   git clone https://github.com/Youcode-Classe-E-2023-2024/KholodSanak_Avito.git
     
   
  3. Import the provided SQL file (database.sql) into your MySQL server to create the necessary database and table. 3.Update the config.php file with your MySQL database 
