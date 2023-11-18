@@ -2,7 +2,8 @@
 
  **This project is a 😎 ***Great*** ***PHP*** application for listing and managing annonces using a ***MySQL*** database And ***MVC*** and ***OOP***.**
 
-📚 ## Table of Content:
+📚 
+## Table of Content:
 
 - [Introduction](#introduction)
 - [Use Case Diagrame](#UCD)
@@ -13,7 +14,8 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-🔰 ##Introduction:
+🔰
+## Introduction:
 
   This PHP application is designed to display a list of annonces fetched from a MySQL database. It allows users to view existing annonces, add new annonces, modify existing ones, and delete annonces.
 
@@ -43,7 +45,8 @@ Before you begin, ensure you have the following requirements installed on your s
  3. Import the provided SQL file (database.sql) into your MySQL server to create the necessary database and table. 3.Update the config.php file with your MySQL database 
   credentials.
 
-🛂: ## Contributing:
+🛂
+## Contributing:
   If you'd like to contribute to this project, please follow these steps:
 
   1.Fork the repository.
@@ -59,7 +62,8 @@ Before you begin, ensure you have the following requirements installed on your s
 
     git push origin feature/your-feature-name
 
-👮: ## License:
+👮
+## License:
 
 This project is licensed under the MIT License.
  
