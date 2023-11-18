@@ -1,21 +1,22 @@
 # ***Loussal_Mohammed_Avito***:
--
+--
  This project is a ***Great*** PHP application for listing and managing annonces using a MySQL database And MVC and OOP.
--
+
 ## Table of Content:
----
+--
   - Introduction
   - Prerequisites
   - Installation
   - Usage
   - Contributing
   - License
+
 ### Introduction:
----
+--
   This PHP application is designed to display a list of annonces fetched from a MySQL database. It allows users to view existing annonces, add new annonces, modify existing ones, and delete annonces.
----
+
 ### Prerequisites:
----
+--
 Before you begin, ensure you have the following requirements installed on your system:
   - PHP
   - MySql
@@ -23,19 +24,21 @@ Before you begin, ensure you have the following requirements installed on your s
   - Git (optional, for cloning the repository)
 ---
 ### Installation:
----
+--
  1. Clone the repository to your local machine:
-     git clone https://github.com/Youcode-Classe-E-2023-2024/KholodSanak_Avito.git
+
+       git clone https://github.com/Youcode-Classe-E-2023-2024/KholodSanak_Avito.git
     
   
  3. Import the provided SQL file (database.sql) into your MySQL server to create the necessary database and table. 3.Update the config.php file with your MySQL database 
   credentials.
----
+--
 ### Contributing:
 ---
   If you'd like to contribute to this project, please follow these steps:
 
   1.Fork the repository.
+  
 
   2.Create a new branch:
 
