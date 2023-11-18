@@ -5,6 +5,8 @@
 ## Table of Content:
 
 - [Introduction](#introduction)
+- [Use Case Diagrame](#UCD)
+- [Class Diagrame](#CD)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -15,8 +17,14 @@
 
   This PHP application is designed to display a list of annonces fetched from a MySQL database. It allows users to view existing annonces, add new annonces, modify existing ones, and delete annonces.
 
-## Prerequisites:
 
+## Use Case Diagrame UML:
+  ![Use Case Diagrame](/public/images/useCaseDiagrame.png)
+  
+## Class Diagrame UML:
+  ![Class Diagrame](/public/images/classDiagrame.png)
+  
+## Prerequisites:
 Before you begin, ensure you have the following requirements installed on your system:
   - PHP
   - MySql
