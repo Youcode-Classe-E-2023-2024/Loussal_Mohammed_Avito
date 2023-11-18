@@ -22,7 +22,7 @@ Before you begin, ensure you have the following requirements installed on your s
   - MySql
   - Web server (e.g., Apache)
   - Git (optional, for cloning the repository)
----
+
 ### Installation:
 --
  1. Clone the repository to your local machine:
@@ -34,7 +34,6 @@ Before you begin, ensure you have the following requirements installed on your s
   credentials.
 --
 ### Contributing:
----
   If you'd like to contribute to this project, please follow these steps:
 
   1.Fork the repository.
@@ -49,9 +48,9 @@ Before you begin, ensure you have the following requirements installed on your s
   4.Push to the branch:
 
     git push origin feature/your-feature-name
----
+--
 ### License:
----
+
 This project is licensed under the MIT License.
  
 
