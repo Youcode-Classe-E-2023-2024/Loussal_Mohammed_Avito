@@ -33,7 +33,7 @@ Before you begin, ensure you have the following requirements installed on your s
   
  3. Import the provided SQL file (database.sql) into your MySQL server to create the necessary database and table. 3.Update the config.php file with your MySQL database 
   credentials.
---
+
 ## Contributing:
   If you'd like to contribute to this project, please follow these steps:
 
