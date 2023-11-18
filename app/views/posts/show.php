@@ -1,4 +1,4 @@
-<?php require URLROOT . '/views/inc/header.php'; ?>
+<?php require APPROOT . '/views/inc/header.php'; ?>
   <a href="<?php echo URLROOT; ?>" class="btn btn-light mb-3"><i class="fa fa-backward" aria-hidden="true"></i> Back</a>
   <br>
   <h1><?php echo $data['post']->title; ?></h1>
@@ -14,4 +14,4 @@
       <input type="submit" class="btn btn-danger" value="Delete">
     </form>
   <?php endif; ?>
-<?php require URLROOT . '/views/inc/footer.php'; ?>
+<?php require APPROOT . '/views/inc/footer.php'; ?>
